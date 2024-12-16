@@ -1,7 +1,7 @@
 import BlurFade from "@/components/magicui/blur-fade";
 import { getBlogPosts } from "@/data/blog";
 import Link from "next/link";
-
+import Image from "next/image";
 export const metadata = {
   title: "Blog",
   description: "My thoughts on software development, life, and more.",
@@ -33,6 +33,12 @@ export default async function BlogPage() {
               href={`/blog/${post.slug}`}
             >
               <div className="w-full flex flex-col">
+                <Image
+                  src={post.metadata.image}
+                  alt={post.metadata.title}
+                  width={100}
+                  height={100}
+                />
                 <p className="tracking-tight">{post.metadata.title}</p>
                 <p className="h-6 text-xs text-muted-foreground">
                   {post.metadata.publishedAt}
