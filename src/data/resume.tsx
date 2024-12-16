@@ -1,7 +1,8 @@
-import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
 
-export const DATA = {
+import { HomeIcon, NotebookIcon } from "lucide-react";
+import { ResumeData } from "./types";
+import { Icons } from "@/components/icons";
+export const DATA: ResumeData = {
   name: "André Silva",
   initials: "AS",
   url: "https://andresilva.online",
