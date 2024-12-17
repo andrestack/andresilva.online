@@ -9,7 +9,7 @@ export const DATA: ResumeData = {
   location: "Pomona, QLD",
   locationLink: "https://www.google.com/maps/place/sunshine+coast",
   description:
-    "Language teacher turned developer. We live in an age of abundance I love helping people thrive.",
+    "Language teacher turned developer. We live in an age of abundance and I love helping people thrive.",
   summary:
     "At the end of 2022, I decided to leave my job as a teacher trainer to pursue a career in web development. I wanted a new challenge and low and behold I found it!! While I might have understimated the level of complexity of this new field, I full embraced it. And have evolving, one project at a time. I also left Berlin and relocated to the Sunshine Coast with my family and launched my first business [Hinterland Web](https://hinterlandweb.com). I really like challenges, don't I?",
   avatarUrl: "/me.jpeg",
