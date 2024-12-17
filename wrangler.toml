@@ -1,6 +1,0 @@
-name = "andresilva.online"
-compatibility_date = "2024-12-17"
-compatibility_flags = ["nodejs_compat"]
-
-Main = “.worker-next/index.mjs”
-Assets = {directory = “.worker-next/assets”, binding = “ASSETS”}
