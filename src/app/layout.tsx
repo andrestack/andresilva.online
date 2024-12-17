@@ -48,6 +48,9 @@ export const metadata: Metadata = {
   },
 };
 
+export const runtime = 'nodejs'
+// 'nodejs' | 'edge'
+
 export default function RootLayout({
   children,
 }: Readonly<{
