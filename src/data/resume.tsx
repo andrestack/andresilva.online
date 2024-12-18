@@ -231,10 +231,8 @@ export const DATA: ResumeData = {
       dates: "April 2024",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Dabbled with Astro to create a slick website for my business. I love the experience and speed of the final product. The fact that I can also use react components is a game changer.",
       technologies: [
-        "Next.js",
-        "Typescript",
         "Astro",
         "TailwindCSS",
       ],
@@ -251,7 +249,7 @@ export const DATA: ResumeData = {
         },
       ],
       image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      video: "https://assets.andresilva.online/astro_website.mp4",
     },
     // {
     //   title: "Automatic Chat",
