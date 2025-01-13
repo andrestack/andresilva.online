@@ -3,7 +3,7 @@ import { getBlogPosts } from "@/data/blog";
 import Link from "next/link";
 import Image from "next/image";
 export const metadata = {
-  title: "Blog",
+  title: "Blog under construction",
   description: "My thoughts on software development, life, and more.",
 };
 
