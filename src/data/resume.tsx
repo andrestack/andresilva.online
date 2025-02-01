@@ -2,6 +2,9 @@
 import { HomeIcon, NotebookIcon } from "lucide-react";
 import { ResumeData } from "./types";
 import { Icons } from "@/components/icons";
+e
+
+
 export const DATA: ResumeData = {
   name: "André Silva",
   initials: "AS",
@@ -102,7 +105,7 @@ export const DATA: ResumeData = {
       start: "January 2019",
       end: "December 2022",
       description:
-        "Managed a pool of 80 teachers; Helped digitise and reduce onboarding processes by 20%; trained and onboarded 100+ teachers.",
+        "Managed a pool of 80 German teachers and trained and onboarded 100+.; Helped digitise and reduce onboarding processes by 20%.",
     },
     // {
     //   company: "Splunk",
@@ -251,35 +254,34 @@ export const DATA: ResumeData = {
       image: "",
       video: "https://assets.andresilva.online/astro_website.mp4",
     },
-    // {
-    //   title: "Automatic Chat",
-    //   href: "https://automatic.chat",
-    //   dates: "April 2023 - March 2024",
-    //   active: true,
-    //   description:
-    //     "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-    //   technologies: [
-    //     "Next.js",
-    //     "Typescript",
-    //     "PostgreSQL",
-    //     "Prisma",
-    //     "TailwindCSS",
-    //     "Shadcn UI",
-    //     "Magic UI",
-    //     "Stripe",
-    //     "Cloudflare Workers",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://automatic.chat",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video:
-    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-    // },
+    {
+      title: "ADC Registration Form",
+      href: "https://automatic.chat",
+      dates: "April 2023 - March 2024",
+      active: true,
+      description:
+        "Developed a registration form for a drum and dance festival I organise in Portugal, called Aldeia Djembe Camp. Data is submitted to a collection on a MongoDB Atlas cluster.",
+      technologies: [
+        "Next.js",
+        "React Hook Form",
+        "Typescript",
+        "zod",
+        "MongoDB",
+        "TailwindCSS",
+        "Shadcn UI",
+        
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://formulario.aldeia-djembe-camp.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://assets.andresilva.online/adc_form.mp4",
+    },
   ],
   // hackathons: [
   //   {
