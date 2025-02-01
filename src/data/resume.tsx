@@ -2,7 +2,7 @@
 import { HomeIcon, NotebookIcon } from "lucide-react";
 import { ResumeData } from "./types";
 import { Icons } from "@/components/icons";
-e
+
 
 
 export const DATA: ResumeData = {
