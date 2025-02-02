@@ -205,7 +205,7 @@ export const DATA: ResumeData = {
     },
     {
       title: "Random Activity Generator",
-      href: "https://magicui.design",
+      href: "",
       dates: "2024",
       active: true,
       description:
@@ -256,7 +256,7 @@ export const DATA: ResumeData = {
     },
     {
       title: "ADC Registration Form",
-      href: "https://automatic.chat",
+      href: "https://formulario.aldeia-djembe-camp.com/",
       dates: "April 2023 - March 2024",
       active: true,
       description:
