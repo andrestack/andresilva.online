@@ -284,7 +284,7 @@ export const DATA: ResumeData = {
     },
     {
       title: "Tradie Chat (WIP)",
-      href: "https://formulario.aldeia-djembe-camp.com/",
+      href: "https://tradie-chat.vercel.app/",
       dates: "February 2025",
       active: true,
       description:
