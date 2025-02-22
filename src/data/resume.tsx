@@ -282,6 +282,33 @@ export const DATA: ResumeData = {
       video:
         "https://assets.andresilva.online/adc_form.mp4",
     },
+    {
+      title: "Tradie Chat (WIP)",
+      href: "https://formulario.aldeia-djembe-camp.com/",
+      dates: "February 2025",
+      active: true,
+      description:
+        "Progressive web app. Working with Open AI's Whisper API for speech-to-text transcription and Open AI's Chat API for analysis of the transcript. Solves the problem of tradies having to manually report their time and expenses.",
+      technologies: [
+        "Next.js",
+        "Service Worker",
+        "Typescript",
+        "Cloudflare R2",
+        "TailwindCSS",
+        "Shadcn UI",
+        
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://tradie-chat.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://assets.andresilva.online/tradie-chat.png",
+      video:
+        "",
+    },
   ],
   // hackathons: [
   //   {
