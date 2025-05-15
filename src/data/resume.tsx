@@ -283,12 +283,12 @@ export const DATA: ResumeData = {
         "https://assets.andresilva.online/adc_form.mp4",
     },
     {
-      title: "Tradie Chat (WIP)",
-      href: "https://tradie-chat.vercel.app/",
+      title: "Yarn it App (WIP)",
+      href: "https://yarnitmvp.vercel.app/",
       dates: "February 2025",
       active: true,
       description:
-        "Progressive web app. Working with Open AI's Whisper API for speech-to-text transcription and Open AI's Chat API for analysis of the transcript. Solves the problem of tradies having to manually report their time and expenses.",
+        "Progressive web app. Working with Open AI's Whisper API for speech-to-text transcription and Open AI's Chat API for analysis of the transcript. Solves the problem of busy professionals having to manually report their time and expenses.",
       technologies: [
         "Next.js",
         "Service Worker",
